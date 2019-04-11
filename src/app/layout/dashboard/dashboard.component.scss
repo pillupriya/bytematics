@@ -1,0 +1,71 @@
+$topnav-background-color: #222;
+.sidebar {
+    border-radius: 0;
+    position: fixed;
+    z-index: 1000;
+    top: 56px;
+    right: 235px;
+    width: 235px;
+    margin-right: -235px;
+    margin-bottom: 48px;
+    border: none;
+    border-radius: 0;
+    overflow-y: auto;
+    background-color: $topnav-background-color;
+    bottom: 0;
+    overflow-x: hidden;
+    padding-bottom: 40px;
+    white-space: nowrap;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    
+}
+
+.fixed-plugin {
+   
+        position: relative;
+        left: 10px;
+        top: 10 px;
+        z-index: 1;
+    
+}
+
+label {
+    position: absolute;
+    top: 0;
+    font-size: var(--font-size-small);
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.2s ease-out;
+}
+
+.bg {
+    /* The image used */
+    background-image:url("../../../assets/images/bgimg.jpg");
+  
+    /* Half height */
+    height: 100%;
+    
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .form-group {
+    width: 150px;
+    text-align: center;
+    margin:0 auto;  
+  
+  }
+
+  .right{
+    margin-top: 10;
+    margin-bottom: 10;
+    margin-right: 10;
+    margin-left: 10;
+  }
